@@ -1,0 +1,5 @@
+cat1	alex	cat	M	2013-01-01	\N
+cat2	alex	cat	M	2013-01-02	0000-00-00
+dogdog	alex	DOG	M	2013-01-02	\N
+name	owner	species	s	0000-00-00	0000-00-00
+Fluffy	Harold	cat	f	1993-02-04	\N

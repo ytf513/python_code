@@ -1,0 +1,11 @@
+﻿再试一下linuxapp版里的帖子——把一个文件夹下的所有文件重命名成10001～10999。可以这样写：
+
+import os.path,sys
+dirname=sys.argv[1]
+i=10001
+for f in os.listdir(dirname):
+    src=os.path.join(dirname,f)
+    if os.path.isdir(src):
+        continue
+    os.rename(src,str(i))
+    i+=1

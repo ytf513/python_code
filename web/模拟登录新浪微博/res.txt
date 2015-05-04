@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>新浪通行证</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+
+<script charset="utf-8" src="http://i.sso.sina.com.cn/js/ssologin.js"></script>
+</head>
+<body>
+正在登录 ...
+<script>
+try{sinaSSOController.setCrossDomainUrlList({"retcode":0,"arrURL":["http:\/\/kandian.com\/logon\/do_crossdomain.php?action=login&savestate=1360135471"]});}catch(e){}try{sinaSSOController.crossDomainAction('login',function(){location.replace('http://weibo.com/ajaxlogin.php?framelogin=1&callback=parent.sinaSSOController.feedBackUrlCallBack&ssosavestate=1360135471&ticket=ST-MTM0Mjk4NjE0Mw==-1359530671-xd-DEC00150E3805A92952C574022FD2772&retcode=0');});}catch(e){}
+</script>
+</body>
+</html>
+
+nonce=6G1A3U&savestate=7&from=&service=miniblog&encoding=UTF-8&url=http%3A%2F%2Fweibo.com%2Fajaxlogin.php%3Fframelogin%3D1%26callback%3Dparent.sinaSSOController.feedBackUrlCallBack&servertime=1359530671&sp=7c26d9df02288a663610323eda58134efec27b77&vsnval=&su=eXRmXzUxMw%3D%3D&userticket=1&vsnf=1&returntype=META&entry=weibo&ssosimplelogin=1&gateway=1&pwencode=wsse

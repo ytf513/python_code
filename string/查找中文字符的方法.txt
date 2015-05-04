@@ -1,0 +1,6 @@
+如果你的python版本是2.x，对于只包含中英文的字符串，可以用下面的方式匹配： 
+>>> import re 
+>>> reChinese = re.compile('[\x80-\xff]+') 
+>>> teststr = '测试awk测试123测试11' 
+>>> chlist = reChinese.findall(teststr) 
+>>> print " ".join(chlist) 

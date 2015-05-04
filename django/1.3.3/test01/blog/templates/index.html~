@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	</head>
+		<meta http-equiv="Content-Type" context="text/html;carset=UTF_8">
+		<title>{{title}}</title>
+	</head>
+	</body>
+		<!-- hello {{user.name}}
+		<br>
+		{{book_list.0}}
+		<br>
+		the {{user.name}} say :{{user.say}}	 -->
+	{% if user %}
+		<li>{{user.name}}</li>
+	{% else %}
+	not exsit
+	{% endif %}
+
+	{% for book in book_list %}
+		<li>{{book}}</li>
+	{%endfor%}
+	
+	{% for key in user %}
+		<li>{{key}}</li>
+	{%endfor%}
+	</body>
+</html>
