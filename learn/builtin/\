@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+#-*- encoding=utf-8  -*-
+
+'ElementTree Test'
+
+try:
+    import xml.etree.cElementTree as ET
+except ImportError:
+    import xml.etree.ElementTree as ET
+
+#root = ET.fromstring(xml_content)
+tree=ET.parse('shanghai.xml')
+root=tree.getroot()
+#print root[0][2]
+
+for elem in root.findall("forecast"):
+    print elem.tag,elem.attrib

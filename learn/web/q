@@ -1,0 +1,6 @@
+Help on built-in function recvfrom:
+
+rreeccvvffrroomm(...)
+    recvfrom(buffersize[, flags]) -> (data, address info)
+    
+    Like recv(buffersize, flags) but also return the sender's address info.
