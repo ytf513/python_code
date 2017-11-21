@@ -1,0 +1,12 @@
+At 2017-11-20 09:58:33
+ 1       10.10.2.6   symail is ok.
+ 2       10.10.2.7    syapp is ok.
+ 3       10.10.2.8      shr is ok.
+ 4       10.10.2.9     shqn is ok.
+ 5      10.10.2.12    syst2 is ok.
+ 6     192.168.1.1       sy is ok.
+ 7     192.168.1.4      sy3 is ok.
+ 8      10.10.4.12     syoa is ok.
+ 9   121.42.41.146  sycloud is ok.
+10  124.65.133.122     bjqn is ok.
+11  61.177.200.186   rgmail is ok.
