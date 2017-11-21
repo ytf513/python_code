@@ -2,15 +2,15 @@ import smtplib
   
 fromaddr = 'ytf513@gmail.com'
 fromaddr = 'ytf.20822@sieyuan.com'  
-toaddrs  = 'ytf5131@gmail.com'  
+toaddrs  = 'ytf.20822@sieyuan.com'  
 msg = 'There was New Test¡¡Email'  
   
   
 # Credentials (if needed)  
 #username = 'ytf513'  
 #password = 'jzY@473225'
-username = 'ytf513'
-password = 'jzY@473225'
+username = 'ytf513@gmail.com'
+password = 'ytfxfq@20130828'
 #= 'Alex@473225'
   
 # The actual mail send  

@@ -7,7 +7,7 @@ from email.mime.image import MIMEImage
   
 sender = 'ytf513@163.com'
 #sender = 'ytf.20822@sieyuan.com' #Mail from must equal authorized user
-receiver = 'ytf513@foxmail.com'  
+receiver = 'ytf.20822@sieyuan.com'  
 subject = 'python email test'  
 smtpserver = 'smtp.163.com'  
 username = 'ytf513'  
@@ -41,10 +41,10 @@ part2 = MIMEText(html, 'html')
 msg.attach(part1)  
 msg.attach(part2)  
 #构造附件  
-att = MIMEText(open('a.txt', 'rb').read(), 'base64', 'utf-8')  
-att["Content-Type"] = 'application/octet-stream'  
-att["Content-Disposition"] = 'attachment; filename="1.jpg"'  
-msg.attach(att)  
+#att = MIMEText(open('a.txt', 'rb').read(), 'base64', 'utf-8')  
+#att["Content-Type"] = 'application/octet-stream'  
+#att["Content-Disposition"] = 'attachment; filename="1.jpg"'  
+#msg.attach(att)  
      
 smtp = smtplib.SMTP()  
 smtp.connect('smtp.163.com')  
